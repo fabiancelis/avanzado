@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@avanzado/hello-world": ["libs/hello-world/src/index.ts"],
+      "@avanzado/login": ["libs/login/src/index.ts"],
+      "@avanzado/login-lib": ["libs/login-lib/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
